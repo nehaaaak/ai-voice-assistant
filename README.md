@@ -23,15 +23,39 @@ git clone https://github.com/nehaaaak/ai-voice-assistant.git
 cd ai-voice-assistant
 ```
 
-2. Set up a free SIP account (e.g., from linhome or similar)
+### 📞 Ways to Interact with the Assistant
 
-3. Log into VAPI Dashboard
+You can talk to the assistant in **two ways**:
+
+---
+
+#### 1. Via The Frontend (Recommended)
+
+1. Navigate to the frontend directory:
+   
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+2. Open your browser at http://localhost:5173
+3. Fill in your details: First Name, Last Name, Email, Phone Number
+4. Once submitted, the assistant will start speaking directly in the browser (via VAPI)
+
+---
+
+### 2. Directly via SIP Call (e.g., Linphone App
+
+1. Set up a free SIP account (e.g., from linhome or similar)
+
+2. Log into VAPI Dashboard
 
  - Set up a new assistant
  - Choose "SIP" integration
  - Copy the generated SIP URI as the inbound number
 
-4. Install Linphone
+3. Install Linphone
 
  - Add your SIP account
  - Dial your Vapi SIP number (e.g., sip:your-assistant-id@sip.vapi.ai) to start the conversation
