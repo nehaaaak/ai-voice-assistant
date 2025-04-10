@@ -27,26 +27,20 @@ cd ai-voice-assistant
 
 3. Log into VAPI Dashboard
 
-  -Set up a new assistant
-
-  -Choose "SIP" integration
-
-  -Copy the generated SIP URI as the inbound number
+ - Set up a new assistant
+ - Choose "SIP" integration
+ - Copy the generated SIP URI as the inbound number
 
 4. Install Linphone
 
-  -Add your SIP account
-
-  -Dial your Vapi SIP number (e.g., sip:your-assistant-id@sip.vapi.ai) to start the conversation
-
-  -Talk to your assistant 🎙️
+ - Add your SIP account
+ - Dial your Vapi SIP number (e.g., sip:your-assistant-id@sip.vapi.ai) to start the conversation
+ - Talk to your assistant 🎙️
 
 ---
 
 ## 🔒 Limitations
 
--This project is demo-only with a free SIP account. It's designed to run locally.
-
--Only supports calling through SIP (e.g., Linphone) — not public phone numbers unless you buy a number.
-
--You can’t receive real calls from others unless you use a real phone number
+- This project is demo-only with a free SIP account. It's designed to run locally.
+- Only supports calling through SIP (e.g., Linphone) — not public phone numbers unless you buy a number.
+- You can’t receive real calls from others unless you use a real phone number
