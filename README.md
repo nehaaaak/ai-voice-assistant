@@ -14,15 +14,6 @@ This project is an online voice assistant that works over SIP calls using [VAPI]
 
 ---
 
-## 📌 Architecture Overview
-
-```mermaid
-graph TD
-    A[User (via Linphone)] -->|SIP Call| B[VAPI SIP Endpoint]
-    B -->|AI Prompt Triggered| C[VAPI AI Assistant]
-    C -->|Voice Response| A
-```
-
 ## 🛠️ How to Run Locally
 
 1. Clone the repo
